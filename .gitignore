@@ -1,0 +1,26 @@
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files
+
+#dependencies
+/node_modules
+
+#testing
+/coverage
+
+#production
+/build
+/dist
+
+#compiled binary addons (http://nodejs.org/api/addon.html)
+build/Release
+
+#dependency directories
+node_modules
+
+#editor settings
+.vscode/*
+.idea
+.project
+.settings
+
+*.zip
+*.tgz
